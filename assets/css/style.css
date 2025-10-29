@@ -4852,7 +4852,7 @@ a.tt-logo-wall-item:hover img {
 }
 
 .tt-accordion-caret svg {
-	fill: var(--tt-text-color);
+	fill: #49469B;
 }
 
 .tt-accordion-item .tt-accordion-caret-inner > * {
