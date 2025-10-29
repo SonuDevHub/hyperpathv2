@@ -2,10 +2,10 @@
 	/* General */
 	--tt-main-color: #DE0B88; /* hyperpath main color. #bf4a1a */
 	--tt-dark-color: #121212; /* hyperpath dark color. #121212 */
-	--tt-light-color: #efedea; /* hyperpath light color. #efedea */
+	--tt-light-color: #fff; /* hyperpath light color. #efedea */
 
 	--tt-bg-color: #0a0a0a; /* hyperpath background color. #0a0a0a */
-	--tt-text-color: #efedea; /* hyperpath text color. #efedea */
+	--tt-text-color: #fff; /* hyperpath text color. #efedea */
 	--tt-text-muted-color: #8f8f8f; /* hyperpath text muted color. #8f8f8f */
 	--tt-border-color: rgb(133 133 133 / 50%); /* hyperpath borders color. rgb(133 133 133 / 50%) */
 
@@ -22,7 +22,7 @@
 	--tt-ball-border-color: #666; /* Ball border color. #666 */
 	--tt-ball-magnetic-color: var(--tt-main-color); /* Ball magnetic border color. */
 	--tt-ball-bg-color: color-mix(in oklab, var(--tt-main-color) 93%, transparent); /* Ball view background color. */
-	--tt-ball-color: #FFF; /* Ball view text color. #FFF */
+	--tt-ball-color: #fff; /* Ball view text color. #FFF */
 
 	/* Links */
 	--tt-link-color: #C84135; /* Link color. #c93b00 */
@@ -31,7 +31,7 @@
 	/* Main menu */
 	--tt-sub-menu-bg-color: #252525; /* Sub menu background color. #252525 */
 	--tt-sub-menu-link-color: #bbb9b2; /* Sub menu link color. #bbb9b2 */
-	--tt-sub-menu-link-hover-color: #FFF; /* Sub menu link hover color. #FFF */
+	--tt-sub-menu-link-hover-color: #fff; /* Sub menu link hover color. #FFF */
 
 	/* Force to light color */
 	--tt-force-to-light-color: #f3f3f3; /* If the element has a background image/video (page header, fullscreen slider, etc.), make all inner elements light (for better visibility). #f3f3f3 */
@@ -4641,6 +4641,7 @@ a.tt-logo-wall-item:hover img {
 	font-weight: bold;
 	font-weight: 600;
 	overflow: hidden;
+	color:var(--tt-main-color)
 }
 
 .tt-scrt-inner {
@@ -4655,6 +4656,7 @@ a.tt-logo-wall-item:hover img {
 	align-items: center;
 	flex-shrink: 0;
 	will-change: transform;
+	
 }
 
 /* Scrolling text separator  
@@ -4668,7 +4670,7 @@ a.tt-logo-wall-item:hover img {
 }
 .tt-scrt-separator > svg {
 	height: calc(20px + 2.5vw);
-	fill: var(--tt-text-color);
+	fill: var(--tt-main-color);
 }
 
 /* If class "scrt-dyn-separator" and data attribute "data-opposite-direction" is enabled */
@@ -4730,7 +4732,7 @@ a.tt-logo-wall-item:hover img {
 /* Scrolling text reverse colors
 ================================= */
 .tt-scrolling-text.scrt-color-reverse {
-	background-color: var(--tt-text-color);
+	background-color: #49469B;
 	color: var(--tt-bg-color);
 }
 .tt-scrolling-text.scrt-color-reverse .tt-scrt-separator > svg {

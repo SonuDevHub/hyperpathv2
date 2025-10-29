@@ -1,9 +1,9 @@
 body.tt-lightmode-on {
 	/* General */
 	--tt-dark-color: #fff; /* hyperpath light color. #e5e3dc */
-	--tt-light-color: #49469B; /* hyperpath dark color. #212121 */
+	--tt-light-color: #DE0B88; /* hyperpath dark color. #212121 */
 	--tt-bg-color: #fff; /* hyperpath background color. #e5e3dc */
-	--tt-text-color: #212121; /* hyperpath text color. #212121 */
+	--tt-text-color: #49469B; /* hyperpath text color. #212121 */
 	--tt-text-muted-color: #666; /* hyperpath text muted color. #666 */
 	--tt-border-color: #666; /* hyperpath borders color. #666 */
 
