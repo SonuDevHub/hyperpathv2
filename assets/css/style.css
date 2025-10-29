@@ -2207,7 +2207,7 @@ body.is-mobile .ph-mask {
 	height: 50px;
 	line-height: 1;
 	font-size: 16px;
-	color: var(--tt-text-color);
+	color: #49469B;
 	transition: color .2s;
 }
 @media (max-width: 1600px) {
